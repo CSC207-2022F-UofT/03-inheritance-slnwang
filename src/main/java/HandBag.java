@@ -36,4 +36,8 @@ public class HandBag extends Bag{
          */
         super.increaseCapacity(1);
     }
+
+    public String getColor(){
+        return super.get_Color();
+    }
 }
